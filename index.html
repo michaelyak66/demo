@@ -1,219 +1,245 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NITORTS NIG LTD</title>
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="styles.css">
-    <style>
-        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-        html {
-            scroll-behavior: smooth;
-        }
+<title>NITORTS NIG LTD</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description"
+    content="The Leading Provider of Comprehensive Soft Hospital Facility Management Services, Ensuring the Highest Standards of Healthcare Quality and Safety">
+<meta name="keywords" content="Hospital, Cleaning, Management">
+<meta name="author" content="NITORTS">
+<meta name="publisher" content="Oyasync">
+<meta name="robots" content="index, follow">
 
-        header.jumbotron {
-            background: url('img/img3.jpg') no-repeat center center;
-            background-size: cover;
-            position: relative;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: white;
-        }
+<link rel="icon" href="img/logo.png" type="image/x-icon">
+<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+<link rel="apple-touch-icon" sizes="180x180" href="img/logo.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/logo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/logo.png">
 
-        header.jumbotron .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 1, 3, 0.3);
-            /* Blue overlay with 70% opacity */
-        }
+<meta property="og:title" content="NITORTS">
+<meta property="og:description"
+    content="The Leading Provider of Comprehensive Soft Hospital Facility Management Services, Ensuring the Highest Standards of Healthcare Quality and Safety">
+<meta property="og:image" content="img/logo.png">
+<meta property="og:url" content="https://www.yourwebsite.com">
+<meta property="og:type" content="website">
 
-        header.jumbotron .container {
-            position: relative;
-            z-index: 1;
-        }
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="NITORTS">
+<meta name="twitter:description"
+    content="The Leading Provider of Comprehensive Soft Hospital Facility Management Services, Ensuring the Highest Standards of Healthcare Quality and Safety">
+<meta name="twitter:image" content="img/logo.png">
 
-        header.jumbotron h1 {
-            animation: fadeInDown 2s;
-            font-size: 3.5rem;
-        }
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<link rel="stylesheet" href="styles.css">
+<style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
 
-        header.jumbotron p {
-            animation: fadeInUp 2s;
-            font-size: 1.5rem;
-            max-width: 700px;
-            margin: 0 auto;
-        }
+    html {
+        scroll-behavior: smooth;
+    }
 
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
+    header.jumbotron {
+        background: url('img/img3.jpg') no-repeat center center;
+        background-size: cover;
+        position: relative;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
 
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
+    header.jumbotron .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 1, 3, 0.3);
+        /* Blue overlay with 70% opacity */
+    }
 
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
+    header.jumbotron .container {
+        position: relative;
+        z-index: 1;
+    }
 
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-    </style>
-    <style>
-        #contact h2 {
-            font-size: 2.5rem;
-            font-weight: bold;
-            margin-bottom: 30px;
-        }
+    header.jumbotron h1 {
+        animation: fadeInDown 2s;
+        font-size: 3.5rem;
+    }
 
-        #contact ul {
-            list-style: none;
-            padding-left: 0;
+    header.jumbotron p {
+        animation: fadeInUp 2s;
+        font-size: 1.5rem;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+    @keyframes fadeInDown {
+        from {
+            opacity: 0;
+            transform: translateY(-20px);
         }
 
-        #contact ul li {
-            margin-bottom: 10px;
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
         }
 
-        #contact a {
-            color: #fff;
-            text-decoration: none;
+        to {
+            opacity: 1;
+            transform: translateY(0);
         }
+    }
+</style>
+<style>
+    #contact h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+        margin-bottom: 30px;
+    }
 
-        #contact a:hover {
-            color: #fff;
-            text-decoration: underline;
-        }
-    </style>
-    <style>
-        #jci-standards h2 {
-            font-size: 2.5rem;
-            font-weight: bold;
-        }
+    #contact ul {
+        list-style: none;
+        padding-left: 0;
+    }
 
-        #jci-standards p {
-            font-size: 1.2rem;
-        }
+    #contact ul li {
+        margin-bottom: 10px;
+    }
 
-        #jci-standards .card {
-            background-color: #fff;
-            border: none;
-            border-radius: 10px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            transition: box-shadow 0.3s ease;
-        }
+    #contact a {
+        color: #fff;
+        text-decoration: none;
+    }
 
-        #jci-standards .card:hover {
-            box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
-        }
+    #contact a:hover {
+        color: #fff;
+        text-decoration: underline;
+    }
+</style>
+<style>
+    #jci-standards h2 {
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
 
-        #jci-standards .card-title {
-            font-size: 1.5rem;
-            font-weight: bold;
-        }
+    #jci-standards p {
+        font-size: 1.2rem;
+    }
 
-        #jci-standards .card-text {
-            font-size: 1.1rem;
-        }
+    #jci-standards .card {
+        background-color: #fff;
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        transition: box-shadow 0.3s ease;
+    }
 
-        #jci-standards .icon {
-            color: #007bff;
-        }
+    #jci-standards .card:hover {
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+    }
 
-        #jci-standards .icon i {
-            font-size: 3rem;
-        }
-    </style>
-    <style>
+    #jci-standards .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
 
-        .navbar-toggler:focus,
-        .navbar-toggler:hover {
-            background-color: #000
-        }
-    </style>
-    <style>
-        #why-choose-us .card {
-            background-color: #f8f9fa;
-            /* Light background for cards */
-        }
+    #jci-standards .card-text {
+        font-size: 1.1rem;
+    }
 
-        #why-choose-us .card-title {
-            font-size: 1.5rem;
-            font-weight: bold;
-            text-align: center;
-        }
+    #jci-standards .icon {
+        color: #007bff;
+    }
 
-        #why-choose-us .card-text {
-            font-size: 1.1rem;
-        }
+    #jci-standards .icon i {
+        font-size: 3rem;
+    }
+</style>
+<style>
+    .navbar-toggler:focus,
+    .navbar-toggler:hover {
+        background-color: #000
+    }
+</style>
+<style>
+    #why-choose-us .card {
+        background-color: #f8f9fa;
+        /* Light background for cards */
+    }
 
-        #whyChooseCarousel .carousel-control-prev-icon,
-        #whyChooseCarousel .carousel-control-next-icon {
-            background-color: #0056b3;
-            /* Dark blue color for controls */
-            border-radius: 50%;
-            padding: 10px;
-        }
-    </style>
-    <style>
-        .bg-light {
-            background-color: #fff !important;
-        }
-        #testimonials .card {
-            background-color: #f8f9fa;
-            /* Light background for cards */
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+    #why-choose-us .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
 
-        #testimonials .card-title {
-            font-size: 1.5rem;
-            font-weight: bold;
-            margin-bottom: 15px;
-        }
+    #why-choose-us .card-text {
+        font-size: 1.1rem;
+    }
 
-        /* Default style without padding */
+    #whyChooseCarousel .carousel-control-prev-icon,
+    #whyChooseCarousel .carousel-control-next-icon {
+        background-color: #0056b3;
+        /* Dark blue color for controls */
+        border-radius: 50%;
+        padding: 10px;
+    }
+</style>
+<style>
+    .bg-light {
+        background-color: #fff !important;
+    }
+
+    #testimonials .card {
+        background-color: #f8f9fa;
+        /* Light background for cards */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #testimonials .card-title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    /* Default style without padding */
+    #testimonials .card-text {
+        font-size: 1.1rem;
+        font-style: italic;
+    }
+
+    /* Apply padding only on mobile devices (max-width: 768px) */
+    @media (min-width: 768px) {
         #testimonials .card-text {
-            font-size: 1.1rem;
-            font-style: italic;
+            padding-left: 80px;
+            padding-right: 80px;
         }
-
-        /* Apply padding only on mobile devices (max-width: 768px) */
-        @media (min-width: 768px) {
-            #testimonials .card-text {
-                padding-left: 80px;
-                padding-right: 80px;
-            }
-        }
+    }
 
 
-        #testimonialsCarousel .carousel-control-prev-icon,
-        #testimonialsCarousel .carousel-control-next-icon {
-            background-color: #0056b3;
-            /* Dark blue color for controls */
-            border-radius: 50%;
-            padding: 10px;
-        }
-    </style>
+    #testimonialsCarousel .carousel-control-prev-icon,
+    #testimonialsCarousel .carousel-control-next-icon {
+        background-color: #0056b3;
+        /* Dark blue color for controls */
+        border-radius: 50%;
+        padding: 10px;
+    }
+</style>
 </head>
 
 <body>
@@ -223,7 +249,7 @@
             <a href="index.html">
                 <img src="img/logo.png" alt="NITORTS Logo" style="max-width: 120px;">
             </a>
-            
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon" style="color: black;"></span>
@@ -242,7 +268,7 @@
                             href="index.html#contact">Contact</a></li>
                 </ul>
             </div>
-        </nav> 
+        </nav>
     </div>
 
     <header class="jumbotron jumbotron-fluid text-center text-white">
@@ -511,13 +537,13 @@
                         <a href="accreditation.html">
 
                             <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse"
-                            data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Accreditation Consultancy
-                        </button>
-                    </a>
+                                data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Accreditation Consultancy
+                            </button>
+                        </a>
                     </h2>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -625,7 +651,11 @@
                         <div class="card border-0 mb-4">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Irede Agro Allied </h5>
-                                <p class="card-text text-center">"We are thrilled with the cleaning service from NITORTS, which consistently keeps our spaces immaculate. Their pest control service is outstanding, and we have not seen a single pest since they began. Their maintenance team is always on top of things, ensuring our equipment and facilities are in excellent condition."</p>
+                                <p class="card-text text-center">"We are thrilled with the cleaning service from
+                                    NITORTS, which consistently keeps our spaces immaculate. Their pest control service
+                                    is outstanding, and we have not seen a single pest since they began. Their
+                                    maintenance team is always on top of things, ensuring our equipment and facilities
+                                    are in excellent condition."</p>
                             </div>
                         </div>
                     </div>
@@ -633,7 +663,10 @@
                         <div class="card border-0 mb-4">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Ameogo Pago </h5>
-                                <p class="card-text text-center">"NITORTS delivers superior cleaning services that keep our premises in pristine condition. Their pest control service has been flawless, providing us with a pest-free environment. We are equally impressed with their maintenance services, which are both efficient and reliable."</p>
+                                <p class="card-text text-center">"NITORTS delivers superior cleaning services that keep
+                                    our premises in pristine condition. Their pest control service has been flawless,
+                                    providing us with a pest-free environment. We are equally impressed with their
+                                    maintenance services, which are both efficient and reliable."</p>
                             </div>
                         </div>
                     </div>
@@ -641,7 +674,10 @@
                         <div class="card border-0 mb-4">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Tewa Gas </h5>
-                                <p class="card-text text-center">"NITORTS offers an excellent cleaning service that keeps our offices looking their best. Their pest control service has been highly effective, eliminating any pest issues we had. Their maintenance services are second to none, ensuring that all our facilities are well-maintained and operational."</p>
+                                <p class="card-text text-center">"NITORTS offers an excellent cleaning service that
+                                    keeps our offices looking their best. Their pest control service has been highly
+                                    effective, eliminating any pest issues we had. Their maintenance services are second
+                                    to none, ensuring that all our facilities are well-maintained and operational."</p>
                             </div>
                         </div>
                     </div>
@@ -649,7 +685,11 @@
                         <div class="card border-0 mb-4">
                             <div class="card-body">
                                 <h5 class="card-title text-center">HIS Dulce </h5>
-                                <p class="card-text text-center">"The cleaning services from NITORTS are exceptional, maintaining our workspace to the highest standards. Their pest control is top-tier, and we have experienced zero pest problems since they started. Their maintenance service is also very dependable, keeping everything in excellent working condition."</p>
+                                <p class="card-text text-center">"The cleaning services from NITORTS are exceptional,
+                                    maintaining our workspace to the highest standards. Their pest control is top-tier,
+                                    and we have experienced zero pest problems since they started. Their maintenance
+                                    service is also very dependable, keeping everything in excellent working condition."
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -657,7 +697,10 @@
                         <div class="card border-0 mb-4">
                             <div class="card-body">
                                 <h5 class="card-title text-center">Rych Gas </h5>
-                                <p class="card-text text-center">"We are very pleased with the cleaning service NITORTS provides; our offices are always spotless. Their pest control service is extremely effective, and we haven't had any issues since they started. The maintenance service they offer is outstanding, ensuring our facilities are always in top shape."</p>
+                                <p class="card-text text-center">"We are very pleased with the cleaning service NITORTS
+                                    provides; our offices are always spotless. Their pest control service is extremely
+                                    effective, and we haven't had any issues since they started. The maintenance service
+                                    they offer is outstanding, ensuring our facilities are always in top shape."</p>
                             </div>
                         </div>
                     </div>
@@ -690,7 +733,8 @@
                     <img style="border: 1px solid black;" src="img/image9.png" alt="HIS Dulce Logo" class="img-fluid">
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
-                    <img style="max-height: 90%;" src="img/image5.png" alt="Irede Agro Allied Service Logo" class="img-fluid">
+                    <img style="max-height: 90%;" src="img/image5.png" alt="Irede Agro Allied Service Logo"
+                        class="img-fluid">
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
                     <img style="max-width: 80%;" src="img/image4.png" alt="LUST Club Logo" class="img-fluid">
@@ -699,7 +743,8 @@
                     <img style="max-width: 90%;" src="img/image8.png" alt="Tangram Energy Logo" class="img-fluid">
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
-                    <img height="350px" src="img/image10.png" alt="Ameogo Pago Global Resources Ltd Logo" class="img-fluid">
+                    <img height="350px" src="img/image10.png" alt="Ameogo Pago Global Resources Ltd Logo"
+                        class="img-fluid">
                 </div>
                 <div class="col-md-3 col-sm-6 mb-4">
                     <img src="img/image2.png" alt="Hotel Noir Logo" class="img-fluid">
@@ -707,7 +752,7 @@
             </div>
         </div>
     </section>
-    
+
 
     <section id="contact" class="container-fluid py-5 text-white" style="background-color: #007bff;">
         <div class="container">
