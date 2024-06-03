@@ -73,7 +73,9 @@
         .bg-light {
             background-color: #fff !important;
         }
-
+    .bg-primary {
+        background-color: #37474f !important;
+    }
         /* Media Query for Card Padding */
         @media (max-width: 576px) {
             .card-md .card-body {
@@ -83,11 +85,14 @@
     </style>
     <style>
         .hero-section {
-            background: #007bff;
+            background: #37474f;
             padding: 100px 0;
             color: white;
         }
 
+        .text-primary{
+            color: #37474f !important;
+        }
         .hero-section h1 {
             font-size: 36px;
             margin-bottom: 20px;
@@ -165,9 +170,12 @@
                 <div class="row">
                     <div class="col-md-6">
                         <h2>NITORTS Profile</h2>
-                        <p>NITORTS USA is an accreditation company with over 20 years of experience in hospital
-                            accreditation in the United States and UAE. The company has completed over 5 turnkey
-                            projects which involved</p>
+                        <p>NITORTS is a premier consulting firm specializing in guiding healthcare facilities in Nigeria towards achieving Joint Commission International (JCI) accreditation. With a dedicated team of experts, NITORTS is committed to elevating the standards of healthcare by providing comprehensive consultancy services that ensure hospitals meet and exceed global benchmarks for quality and patient safety. </p>
+                        <p>
+                            Our services encompass a full spectrum of support, including gap analysis, implementation of best practices, rigorous staff training, and continuous quality improvement programs. By partnering with NITORTS, hospitals gain access to unparalleled expertise and tailored solutions that streamline the accreditation process, enhance operational efficiency, and foster a culture of excellence.</p>
+                            
+                            <p>
+                            At NITORTS, our mission is to transform healthcare environments, ensuring they deliver exceptional patient care and adhere to the highest international standards. With a proven track record and a passion for quality, NITORTS stands as a trusted partner for hospitals striving for JCI accreditation and excellence in healthcare delivery.</p>
                     </div>
                     <div class="col-md-6">
                         <img src="img/img8.jpg" alt="Accreditation Image" class="img-fluid">
@@ -176,7 +184,7 @@
             </div>
         </section>
 
-        <section style="background-color: #f8f9fa;" class="section">
+        <!-- <section style="background-color: #f8f9fa;" class="section">
             <div class="container">
                 <h2 style="padding: 30px;" class="text-center mb-4">Projects</h2>
 
@@ -223,7 +231,284 @@
                     </div>
                 </div>
             </div>
+        </section> -->
+
+        <section id="services" class="container my-5">
+            <h2 class="text-center" style="padding: 30px;">Project Types</h2>
+            <div class="accordion" id="servicesAccordion">
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Comprehensive JCI Accreditation Preparation
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Conduct gap analysis and readiness assessment.</li>
+                                <li>Develop and implement action plans for compliance.</li>
+                                <li>Provide training sessions on JCI standards for hospital staff.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Infection Control Program Development
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Design and implement infection control policies and procedures.</li>
+                                <li>Establish infection monitoring and reporting systems.</li>
+                                <li>Train staff on best practices for infection prevention and control.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Quality Management Systems Implementation
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Develop and implement quality improvement programs.</li>
+                                <li>Conduct regular audits and performance evaluations.</li>
+                                <li>Facilitate continuous quality improvement workshops.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Patient Safety Initiatives
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Design and implement patient safety protocols and checklists.</li>
+                                <li>Establish a culture of safety with ongoing staff education.</li>
+                                <li>Implement incident reporting and management systems.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingFive">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Facility and Environmental Services Optimization
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Assess and upgrade cleaning, waste management, and pest control protocols.</li>
+                                <li>Implement sustainable and eco-friendly practices.</li>
+                                <li>Train staff on JCI-compliant environmental services procedures.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingSix">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                Healthcare Risk Management
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Identify and assess potential risks in hospital operations.</li>
+                                <li>Develop and implement risk mitigation strategies.</li>
+                                <li>Conduct regular risk management training for staff.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingSeven">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                Clinical Documentation Improvement
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Enhance the accuracy and completeness of clinical documentation.</li>
+                                <li>Implement electronic health records (EHR) systems compliant with JCI standards.</li>
+                                <li>Train medical staff on best practices for clinical documentation.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingEight">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                Patient Experience Enhancement
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Develop and implement patient-centered care programs.</li>
+                                <li>Conduct patient satisfaction surveys and feedback analysis.</li>
+                                <li>Implement strategies to improve patient and family engagement.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingNine">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                                Workforce Training and Development
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Conduct comprehensive training programs on JCI standards and best practices.</li>
+                                <li>Develop leadership and management training modules for hospital administrators.</li>
+                                <li>Implement continuous professional development programs for all staff levels.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingTen">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                                Emergency Preparedness and Response Planning
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Develop and implement emergency preparedness plans.</li>
+                                <li>Conduct regular drills and simulations.</li>
+                                <li>Train staff on emergency response protocols.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingEleven">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                                Medical Equipment and Facilities Maintenance
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Establish maintenance schedules and protocols for medical equipment.</li>
+                                <li>Implement facilities management programs to ensure safety and functionality.</li>
+                                <li>Train maintenance staff on JCI-compliant procedures.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingTwelve">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                                Clinical Pathway Development
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Develop standardized clinical pathways for common medical conditions.</li>
+                                <li>Implement care coordination and case management practices.</li>
+                                <li>Train clinical staff on the use of clinical pathways.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingThirteen">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">
+                                Data Management and Analytics
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Implement health information management systems.</li>
+                                <li>Develop data analytics capabilities for quality improvement.</li>
+                                <li>Train staff on data management and utilization for decision-making.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingFourteen">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">
+                                Patient Rights and Ethics Programs
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Establish policies and procedures to protect patient rights.</li>
+                                <li>Develop and implement ethics training programs.</li>
+                                <li>Conduct regular audits to ensure compliance with ethical standards.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="card shadow-sm mb-3">
+                    <div class="card-header" id="headingFifteen">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse" data-target="#collapseFifteen" aria-expanded="false" aria-controls="collapseFifteen">
+                                Health Information Security
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#servicesAccordion">
+                        <div class="card-body bg-light">
+                            <ul>
+                                <li>Implement robust cybersecurity measures to protect patient data.</li>
+                                <li>Develop and enforce data privacy policies.</li>
+                                <li>Train staff on health information security best practices.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        
 
         <section id="jci-standards" class="py-5 bg-light">
             <div class="container">

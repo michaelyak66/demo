@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-<title>NITORTS NIG LTD</title>
+<title>NITORTS</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description"
@@ -161,7 +161,11 @@
     }
 
     #jci-standards .icon {
-        color: #007bff;
+        color: #37474f;
+    }
+
+    .bg-primary {
+        background-color: #37474f !important;
     }
 
     #jci-standards .icon i {
@@ -192,7 +196,7 @@
 
     #whyChooseCarousel .carousel-control-prev-icon,
     #whyChooseCarousel .carousel-control-next-icon {
-        background-color: #0056b3;
+        background-color: #37474f;
         /* Dark blue color for controls */
         border-radius: 50%;
         padding: 10px;
@@ -201,6 +205,9 @@
 <style>
     .bg-light {
         background-color: #fff !important;
+    }
+    .text-primary{
+        color: #37474f !important;
     }
 
     #testimonials .card {
@@ -231,10 +238,35 @@
         }
     }
 
+    @media (max-width: 768px) {
+        .irede {
+           max-width: 70%;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .irede {
+           max-width: 90%;
+        }
+    }
+
+    @media (max-width: 768px) {
+        .gram {
+           max-width: 70%;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .gram {
+           max-width: 90%;
+        }
+    }
+    
+
 
     #testimonialsCarousel .carousel-control-prev-icon,
     #testimonialsCarousel .carousel-control-next-icon {
-        background-color: #0056b3;
+        background-color: #37474f;
         /* Dark blue color for controls */
         border-radius: 50%;
         padding: 10px;
@@ -274,7 +306,8 @@
     <header class="jumbotron jumbotron-fluid text-center text-white">
         <div class="overlay"></div>
         <div class="container">
-            <h1 class="display-4 font-weight-bold">NITORTS NIG LTD</h1>
+            <h1 class="display-4 font-weight-bold">NITORTS</h1>
+            <p style="font-style: italic; font-size: 16px; padding: 15px;">Enhancing Spaces, Elevating Experiences.</p>
             <p class="lead">The Leading Provider of Comprehensive Soft Hospital Facility Management Services, Ensuring
                 the Highest Standards of Healthcare Quality and Safety</p>
         </div>
@@ -284,14 +317,14 @@
         <div class="row">
             <div class="col-md-6">
                 <h2 class="display-4">Who We Are</h2>
-                <p class="lead">NITORTS NIG LTD is a leading soft hospital facility management company based in Lagos,
+                <p class="lead">NITORTS is a leading soft hospital facility management company based in Lagos,
                     Nigeria. Our mission is to provide comprehensive, high-quality facility management services that
                     ensure the health, safety, and well-being of patients, staff, and visitors in healthcare
                     environments. We adhere strictly to Joint Commission International (JCI) standards, ensuring that
                     our services meet the highest global benchmarks for healthcare quality and safety.</p>
             </div>
             <div class="col-md-6">
-                <img src="img/img10.jpg" class="img-fluid rounded shadow" alt="Hospital Image">
+                <img src="img/pic.png" class="img-fluid rounded shadow" alt="Hospital Image">
             </div>
         </div>
     </section>
@@ -300,7 +333,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div style="padding-bottom: 30px;" class="col-md-6">
-                    <img src="img/img4.jpg" class="img-fluid rounded shadow" alt="Vision Image">
+                    <img src="img/pic2.png" class="img-fluid rounded shadow" alt="Vision Image">
                 </div>
                 <div class="col-md-6">
                     <h2 class="display-4">Our Vision</h2>
@@ -321,7 +354,7 @@
                         wellness.</p>
                 </div>
                 <div class="col-md-6">
-                    <img src="img/img5.png" class="img-fluid rounded shadow" alt="Mission Image">
+                    <img src="img/pic3.png" class="img-fluid rounded shadow" alt="Mission Image">
                 </div>
             </div>
         </div>
@@ -383,12 +416,22 @@
                             <div class="icon mb-3 text-primary">
                                 <i class="fas fa-handshake fa-2x"></i>
                             </div>
-                            <h5 class="card-title">Collaboration</h5>
-                            <p class="card-text">We work closely with our clients to understand their needs and exceed
-                                their expectations.</p>
+                            <h5 class="card-title">Collaboration and Teamwork</h5>
+                            <p class="card-text">Promoting a collaborative work environment where teamwork is valued and all employees work together to achieve common goals.</p>
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 text-center shadow-sm">
+                        <div class="card-body">
+                            <div class="icon mb-3 text-primary">
+                                <i class="fas fa-sync-alt fa-2x"></i>
+                            </div>
+                            <h5 class="card-title">Adaptability</h5>
+                            <p class="card-text">Being flexible and adaptable to the changing needs of clients and the dynamic nature of the facilities management industry.</p>
+                        </div>
+                    </div>
+                </div>                
             </div>
         </div>
     </section>
@@ -450,14 +493,14 @@
     </section>
 
     <section id="services" class="container my-5">
-        <h2>Services</h2>
+        <h2 style="padding: 30px;">Services</h2>
         <div class="accordion" id="servicesAccordion">
             <div class="card shadow-sm mb-3">
                 <div class="card-header" id="headingOne">
                     <h2 class="mb-0">
                         <button class="btn btn-link text-primary" type="button" data-toggle="collapse"
                             data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            Cleaning and Sanitation
+                            Cleaning and Housekeeping Services
                         </button>
                     </h2>
                 </div>
@@ -466,12 +509,10 @@
                     data-parent="#servicesAccordion">
                     <div class="card-body bg-light">
                         <ul>
-                            <li>Daily, weekly, and monthly cleaning schedules.</li>
-                            <li>Specialized cleaning protocols for patient rooms, operating theaters, ICUs, ERs, and
-                                outpatient clinics.</li>
-                            <li>Deep cleaning and terminal cleaning services.</li>
-                            <li>Waste management and disposal, including handling of hazardous and infectious waste.
+                            <li>Routine and deep cleaning of patient rooms, operating theaters, and common areas.</li>
+                            <li>Infection control cleaning to prevent the spread of healthcare-associated infections (HAIs).
                             </li>
+                            <li>Waste management, including hazardous and medical waste disposal.</li>
                         </ul>
                     </div>
                 </div>
@@ -481,15 +522,15 @@
                     <h2 class="mb-0">
                         <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse"
                             data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Pest Control
+                            Pest Control Services
                         </button>
                     </h2>
                 </div>
                 <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#servicesAccordion">
                     <div class="card-body bg-light">
                         <ul>
-                            <li>Regular pest control measures to prevent infestations.</li>
-                            <li>Use of safe and effective pest control solutions.</li>
+                            <li>Regular inspections and treatments to prevent and control pest infestations.</li>
+                            <li>Use of non-toxic and eco-friendly pest control methods to ensure patient safety.</li>
                         </ul>
                     </div>
                 </div>
@@ -499,16 +540,18 @@
                     <h2 class="mb-0">
                         <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse"
                             data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            Landscaping
-                        </button>
+                            Laundry and Linen Services:
+                                                </button>
                     </h2>
                 </div>
                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
                     data-parent="#servicesAccordion">
                     <div class="card-body bg-light">
                         <ul>
-                            <li>Design and maintenance of hospital grounds and gardens.</li>
-                            <li>Tree planting, pruning, and lawn care.</li>
+                            <li>Proper handling and laundering of hospital linens and uniforms.
+                            </li>
+                            <li>Ensuring strict adherence to hygiene standards to prevent contamination.
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -518,19 +561,172 @@
                     <h2 class="mb-0">
                         <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse"
                             data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                            Waste Management
-                        </button>
+                            Security Services                        </button>
                     </h2>
                 </div>
                 <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#servicesAccordion">
                     <div class="card-body bg-light">
                         <ul>
-                            <li>Comprehensive waste management solutions.</li>
-                            <li>Waste segregation, recycling, and disposal services.</li>
+                            <li>Providing trained security personnel to ensure the safety of patients, staff, and visitors.
+                            </li>
+                            <li>Implementing access control systems and surveillance to monitor sensitive areas.
+                            </li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <div class="card shadow-sm mb-3">
+                <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Reception and Concierge Services
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#servicesAccordion">
+                    <div class="card-body bg-light">
+                        <ul>
+                            <li>Managing front desk operations and assisting patients and visitors with inquiries.</li>
+                            <li>Providing information and support to enhance patient and visitor experience.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card shadow-sm mb-3">
+                <div class="card-header" id="headingSix">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            Waste Management Services
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#servicesAccordion">
+                    <div class="card-body bg-light">
+                        <ul>
+                            <li>Efficient and safe disposal of general, medical, and hazardous waste.</li>
+                            <li>Compliance with environmental and health regulations for waste management.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card shadow-sm mb-3">
+                <div class="card-header" id="headingSeven">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            Patient Transport Services
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#servicesAccordion">
+                    <div class="card-body bg-light">
+                        <ul>
+                            <li>Safe and efficient transport of patients within the healthcare facility.</li>
+                            <li>Ensuring timely and comfortable transfers to different departments or locations.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card shadow-sm mb-3">
+                <div class="card-header" id="headingEight">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            Maintenance of Non-Clinical Areas
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#servicesAccordion">
+                    <div class="card-body bg-light">
+                        <ul>
+                            <li>Regular upkeep of administrative offices, waiting areas, and staff lounges.</li>
+                            <li>Ensuring these areas are clean, functional, and comfortable.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card shadow-sm mb-3">
+                <div class="card-header" id="headingNine">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            Staff Training and Development
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#servicesAccordion">
+                    <div class="card-body bg-light">
+                        <ul>
+                            <li>Providing ongoing training to staff on JCI standards and best practices.</li>
+                            <li>Ensuring all personnel are knowledgeable about infection control, safety protocols, and customer service.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card shadow-sm mb-3">
+                <div class="card-header" id="headingTen">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                            Environmental Services
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#servicesAccordion">
+                    <div class="card-body bg-light">
+                        <ul>
+                            <li>Monitoring and managing air and water quality within the facility.</li>
+                            <li>Implementing energy-efficient practices and sustainability initiatives.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card shadow-sm mb-3">
+                <div class="card-header" id="headingEleven">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                            Waste Management and Recycling Programs
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#servicesAccordion">
+                    <div class="card-body bg-light">
+                        <ul>
+                            <li>Developing and managing recycling programs to reduce waste.</li>
+                            <li>Promoting environmental sustainability through proper waste segregation and disposal.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card shadow-sm mb-3">
+                <div class="card-header" id="headingTwelve">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link text-primary collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">
+                            Customer Service and Complaint Management
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#servicesAccordion">
+                    <div class="card-body bg-light">
+                        <ul>
+                            <li>Establishing systems for receiving and addressing patient and visitor feedback.</li>
+                            <li>Implementing continuous improvement processes based on feedback.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
             <div class="card shadow-sm mb-3">
                 <div class="card-header" id="headingFour">
                     <h2 class="mb-0">
@@ -723,38 +919,36 @@
             <h2 style="padding: 30px;" class="text-center mb-4">Partners</h2>
 
             <div class="row">
-                <div class="col-md-3 col-sm-6 mb-4">
+                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center align-items-center">
                     <img src="img/image3.png" alt="Fortys Bar Logo" class="img-fluid">
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4">
+                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center align-items-center">
                     <img style="border: 1px solid black;" src="img/image6.png" alt="Selai Gas Logo" class="img-fluid">
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4">
+                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center align-items-center">
                     <img style="border: 1px solid black;" src="img/image9.png" alt="HIS Dulce Logo" class="img-fluid">
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4">
-                    <img style="max-height: 90%;" src="img/image5.png" alt="Irede Agro Allied Service Logo"
-                        class="img-fluid">
+                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center align-items-center">
+                    <img style="max-width: 90%; border: 1px solid black;" src="img/log09.png" alt="Dulce Dental Clinic" class="img-fluid">
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4">
-                    <img style="max-width: 80%;" src="img/image4.png" alt="LUST Club Logo" class="img-fluid">
+                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center align-items-center">
+                    <img class="irede" src="img/image5.png" alt="Irede Agro Allied Service Logo" class="img-fluid">
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4">
-                    <img style="max-width: 90%;" src="img/image8.png" alt="Tangram Energy Logo" class="img-fluid">
+                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center align-items-center">
+                    <img class="gram" src="img/image8.png" alt="Tangram Energy Logo" class="img-fluid">
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4">
-                    <img height="350px" src="img/image10.png" alt="Ameogo Pago Global Resources Ltd Logo"
-                        class="img-fluid">
+                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center align-items-center">
+                    <img height="350px" src="img/image10.png" alt="Ameogo Pago Global Resources Ltd Logo" class="img-fluid">
                 </div>
-                <div class="col-md-3 col-sm-6 mb-4">
+                <div class="col-md-3 col-sm-6 mb-4 d-flex justify-content-center align-items-center">
                     <img src="img/image2.png" alt="Hotel Noir Logo" class="img-fluid">
                 </div>
             </div>
-        </div>
+            
     </section>
 
 
-    <section id="contact" class="container-fluid py-5 text-white" style="background-color: #007bff;">
+    <section id="contact" class="container-fluid py-5 text-white" style="background-color: #37474f;">
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
@@ -772,7 +966,7 @@
                 <div class="col-md-4">
                     <div class="row">
                         <div class="col-md-12">
-                            <img src="img/img9.jpg" class="img-fluid rounded shadow" alt="Mission Image">
+                            <img src="img/pic4.png" class="img-fluid rounded shadow" alt="Mission Image">
                         </div>
                     </div>
                 </div>
